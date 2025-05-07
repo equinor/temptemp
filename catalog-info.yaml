@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: temptemp
+  description: A temporary repo for testing missing license template.
+  annotations:
+    github.com/project-slug: 'equinor/temptemp'
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/equinor/temptemp/tree/main
+spec:
+  type: website
+  lifecycle: experimental
+  owner: sw-enabling-team-developers
